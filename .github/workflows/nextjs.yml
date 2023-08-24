@@ -78,10 +78,7 @@ jobs:
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Copy data folder to export
-        uses: canastro/copy-file-action@master
-        with: 
-          source: ./data
-          target: ./out
+        run: cp -r ~/data/ ./out/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
