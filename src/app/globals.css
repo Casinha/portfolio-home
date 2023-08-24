@@ -18,10 +18,32 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+}
+
+.typewriter {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  color: #333;
+}
+
+.typewriter h1,
+.typewriter h2,
+.typewriter h3,
+.typewriter h4,
+.typewriter h5,
+.typewriter h6 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.typewriter a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.typewriter a:hover {
+  color: #666;
 }

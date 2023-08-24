@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Backend API",
+        "codeURL": "https://github.com/Casinha/PortfolioAPI",
+        "description": "A REST API adapted from a coding task posed to me in the past. Given a JSON file representing a data table with roughly 50k records, I built an API that allows the client to query the data with the functions typically available in similar applications: filter, sorting, paging etc.",
+        "tags": [
+            {
+                "title": "nodejs"
+            },
+            {
+                "title": "express"
+            },
+            {
+                "title": "typescript"
+            },
+            {
+                "title": "JSON"
+            }
+        ]
+    },
+    {
+        "title": "Colour Clicker",
+        "codeURL": "https://github.com/Casinha/colour-clicker",
+        "demoURL": "https://casinha.github.io/colour-clicker/",
+        "description": "A basic game built using Next.JS with React components. The game is a simple test of colour recognition, where a grid of coloured squares is displayed and the user must click on the square that differs in colour from the rest. The game is timed, and the user's score is recorded and displayed at the end of the game.",
+        "tags": [
+            {
+                "title": "Next.JS"
+            },
+            {
+                "title": "React"
+            }
+        ]
+    },
+    {
+        "title": "Dashboard",
+        "codeURL": "https://github.com/Casinha/PortfolioDashboarding",
+        "demoURL": "https://casinha.github.io/PortfolioDashboarding/",
+        "description": "A basic dashboard of draggable charts built using Angular and Apache Echarts. Currently awaiting improvements, this project exists mostly as an exercise in the use of Apache Echarts, with plans to demonstrate an example of a full overview dashboard in future.",
+        "tags": [
+            {
+                "title": "angular"
+            },
+            {
+                "title": "typescript"
+            },
+            {
+                "title": "echarts"
+            },
+            {
+                "title": "incomplete",
+                "mode": "warn"
+            }
+        ]
+    }
+]
