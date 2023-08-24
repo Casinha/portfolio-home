@@ -25,10 +25,14 @@
         "description": "A basic game built using Next.JS with React components. The game is a simple test of colour recognition, where a grid of coloured squares is displayed and the user must click on the square that differs in colour from the rest. The game is timed, and the user's score is recorded and displayed at the end of the game.",
         "tags": [
             {
-                "title": "Next.JS"
+                "title": "next.js"
             },
             {
-                "title": "React"
+                "title": "react"
+            },
+            {
+                "title": "desktop only",
+                "mode": "warn"
             }
         ]
     },

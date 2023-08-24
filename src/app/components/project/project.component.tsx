@@ -18,14 +18,14 @@ export default function project({ title, codeURL, demoURL, description, tags }: 
 
     const demo = demoURL ? ( <a href={demoURL} target="_blank">Demo</a>) : null
     const titleElement = demo 
-        ? <h2 className="text-2xl">{title} - <a href={codeURL} target="_blank">Code</a> / {demo}</h2>
-        : <h2 className="text-2xl">{title} - <a href={codeURL} target="_blank">Code</a></h2>
+        ? <h2 className="text-xl md:text-2xl">{title} - <a href={codeURL} target="_blank">Code</a> / {demo}</h2>
+        : <h2 className="text-xl md:text-2xl">{title} - <a href={codeURL} target="_blank">Code</a></h2>
 
     return (
         <div className="min-w-full my-10">
             {titleElement}
             <p className="my-10">{description}</p>
-            <div className="flex">
+            <div className="flex flex-wrap">
                 {tagElements}
             </div>
         </div>
