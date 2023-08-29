@@ -22,7 +22,7 @@
         "title": "Colour Clicker",
         "codeURL": "https://github.com/Casinha/colour-clicker",
         "demoURL": "https://casinha.github.io/colour-clicker/",
-        "description": "A basic game built using Next.JS with React components. The game is a simple test of colour recognition, where a grid of coloured squares is displayed and the user must click on the square that differs in colour from the rest. The game is timed, and the user's score is recorded and displayed at the end of the game.",
+        "description": "A basic game built using Next.JS with React components. The game is a simple test of colour recognition, where a grid of coloured squares is displayed and the user must click on the square that differs in colour from the rest. The game is timed over up to 30 rounds, and the user's score is recorded and displayed at the end of the game. The game works fine on mobile, but the full experience is best on a larger screen.",
         "tags": [
             {
                 "title": "next.js"
@@ -31,7 +31,7 @@
                 "title": "react"
             },
             {
-                "title": "desktop only",
+                "title": "best on desktop",
                 "mode": "warn"
             }
         ]
